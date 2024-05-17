@@ -1,0 +1,281 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Styles */
+.main-nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav ul li:last-child {
+    margin-right: 0;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.main-nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Showcase Styles */
+.showcase {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.showcase h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.showcase p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.showcase .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #fff;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.showcase .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Top Box Styles */
+.top-box {
+    background-color: #f8f9fa;
+    padding: 40px;
+    margin: 40px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.top-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Box Styles */
+.box {
+    text-align: center;
+    padding: 40px;
+    margin: 40px 0;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.box i {
+    color: #007bff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.box h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.box p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+/* Info Section Styles */
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 100px 20px;
+}
+
+.info img {
+    max-width: 400px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.info div {
+    max-width: 600px;
+    text-align: left;
+}
+
+.info h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.info .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.info .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 0 20px;
+}
+
+.footer-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.footer-section .contact span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-section .socials a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer-section .socials a:hover {
+    color: #007bff;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 1;
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 10px;
+    }
+    .main-nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .showcase {
+        padding: 80px 0;
+    }
+    .box {
+        padding: 20px;
+    }
+    .info {
+        flex-direction: column;
+        text-align: center;
+        padding: 80px 10px;
+    }
+    .info img {
+        margin: 0 auto 20px;
+    }
+    .info div {
+        margin-right: 0;
+    }
+    .footer-section {
+        margin: 20px 0;
+    }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+    .showcase h1 {
+        font-size: 36px;
+    }
+    .showcase p {
+        font-size: 16px;
+    }
+    .info h2 {
+        font-size: 28px;
+    }
+    .info p {
+        font-size: 16px;
+    }
+    .footer-section h2 {
+        font-size: 20px;
+    }
+    .footer-section p {
+        font-size: 14px;
+    }
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .info img {
+        max-width: 80%;
+        height: auto;
+    }
+}
